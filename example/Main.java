@@ -3,10 +3,10 @@ package example;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+        public static void main(String[] args) {
 
-  /* System.out.println("Hola Tobias");
-        System.out.println("\n");
+   System.out.println("Hola Toby");
+  /*      System.out.println("\n");
         System.out.println("* Toby");
         System.out.println("/////////////////////////////////");
 
@@ -26,7 +26,7 @@ public class Main {
         } else {
             System.out.println("Eres menor de edad");
         }
-*/
+
         //   System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
 
      /*   //Peso en Kg / altura en metros al cuadrado
@@ -87,43 +87,45 @@ public class Main {
             System.out.println("Estás en un peso menor al normal.");
         }
 */
-        System.out.println("##################################################");
-        Scanner cargaEdad = new Scanner(System.in);
-        System.out.println("Ingresa tu edad humano");
+     /*           System.out.println("##################################################");
+                Scanner cargaEdad = new Scanner(System.in);
+                System.out.println("Ingresa tu edad humano");
 
-        Integer edad = cargaEdad.nextInt();
-        Integer edadCat = edad * 7;
-        System.out.println("La edad de tu Cat es: " + edadCat);
-        System.out.println("##################################################");
+                int edad = cargaEdad.nextInt();
+                int edadCat = edad * 7;
+                System.out.println("La edad de tu Cat es: " + edadCat);
+                System.out.println("##################################################");
 
-        Scanner MillasAKilometor = new Scanner(System.in);
-        System.out.println("Ingresa una distancia en Millas");
+                Scanner MillasAKilometor = new Scanner(System.in);
+                System.out.println("Ingresa una distancia en Millas");
 
-        double millas = MillasAKilometor.nextDouble();
-        double kilometros = millas * 1.60934;
+                double millas = MillasAKilometor.nextDouble();
+                double kilometros = millas * 1.60934;
 
-        System.out.println("La distancia en Kilometros es: " + kilometros);
+                System.out.println("La distancia en Kilometros es: " + kilometros);
 
-        System.out.println("##################################################");
+                System.out.println("##################################################");
 //Precio
 //descuento
 //Precio con descuento
 
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Ingresa el valor el producto: ");
-        double precio = sc.nextDouble();
+                Scanner sc = new Scanner(System.in);
+                System.out.println("Ingresa el valor el producto: ");
+                double precio = sc.nextDouble();
 
-        System.out.println("Ingresa el valor de descuento: ");
-        double descuento = sc.nextDouble();
+                System.out.println("Ingresa el valor de descuento: ");
+                double descuento = sc.nextDouble();
 
-        double PrecioFinal = precio - (precio * descuento  / 100);
+                double PrecioFinal = precio - (precio * descuento / 100);
 
-        System.out.println("El valor del producto con descuento  es: " + PrecioFinal);
+                System.out.println("El valor del producto con descuento  es: " + PrecioFinal);
 
-        System.out.println("##################################################");
-
-    }
+                System.out.println("##################################################");
+*/
+        }
 }
+
+
 
 
 
