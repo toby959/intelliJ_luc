@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
         public static void main(String[] args) {
-
+//exercism.org/    tarea!!!!!!!!!!!!!!!!!
    System.out.println("Hola Toby");
   /*      System.out.println("\n");
         System.out.println("* Toby");
@@ -103,25 +103,32 @@ public class Main {
                 double kilometros = millas * 1.60934;
 
                 System.out.println("La distancia en Kilometros es: " + kilometros);
-
+*/
                 System.out.println("##################################################");
 //Precio
 //descuento
 //Precio con descuento
 
+                String producto1;
+                String producto2;
+
+
                 Scanner sc = new Scanner(System.in);
+                producto1 = "Jeans";
                 System.out.println("Ingresa el valor el producto: ");
                 double precio = sc.nextDouble();
 
                 System.out.println("Ingresa el valor de descuento: ");
                 double descuento = sc.nextDouble();
 
-                double PrecioFinal = precio - (precio * descuento / 100);
+                double PrecioFinal = precio - (descuento * precio / 100);
 
-                System.out.println("El valor del producto con descuento  es: " + PrecioFinal);
+                System.out.println("El precio del " + producto1 + " es: " + PrecioFinal);
 
                 System.out.println("##################################################");
-*/
+
+
+
         }
 }
 
